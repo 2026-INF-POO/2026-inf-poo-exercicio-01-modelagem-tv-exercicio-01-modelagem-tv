@@ -16,30 +16,27 @@
     - subir e descer canal.
   
 
-   class TV {
-    int tamanho;
-    int volume = 5;
-    string marca;
-    int voltagem;
-    int canal;
+class Tv {
+  int tamanho;
+  int volume = 5;
+  string marca; 
+  int voltagem;
+  int canal;
 
-  int ligarTV(){
-     if (220 x 50){
- }
- 
-   int aumentarVolume(){
-       if (volume < 10){
-           volume++;
-     }
-       return volume;
-}
-
-   int diminuirVolume(){
-        if (volume > 5){ 
-            volume--;
-    }
+  int aumentarvolume() {
+      if ( volume < 10 ) {
+         volume++
+      }
       return volume;
-}
+  }
 
+  int diminuirvolume() {
+      if ( volume > 1 ) {
+          volume--
+      }
+      return volume;
+  }
 
-}
+ int ligar() {
+     int consumo = voltagem * tamanho
+ }
